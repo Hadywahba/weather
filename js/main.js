@@ -6,7 +6,7 @@ inputSearch.addEventListener("input",function(e){
 const apiKey=`186f8eb3c1b54f969bc220129242212`;
 async function getWeather(city='Alexandria'){
     try {
-        let response= await fetch(`https://api.weatherapi.com/v1/forecast.json?key=186f8eb3c1b54f969bc220129242212&q=${city}&days=3`)
+        let response= await fetch(`HTTPS://api.weatherapi.com/v1/forecast.json?key=186f8eb3c1b54f969bc220129242212&q=${city}&days=3`)
 
        data = await response.json();
        displayWeather(data)
