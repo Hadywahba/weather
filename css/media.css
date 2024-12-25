@@ -1,0 +1,29 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+@media (min-width:576px) {
+        .degree-content{
+display: flex;
+flex-direction: column;
+
+align-items: flex-start;
+        }
+    
+}
+
+@media (min-width: 992px) {
+     .col-lg-3 {
+  
+        width: 33.3%;
+      }
+        .degree-content{
+            display: flex;
+            flex-direction: row;
+           justify-content: space-between;
+           align-items: center;
+        
+                    }
+    }
+}
