@@ -125,7 +125,7 @@ input#submit{
 .first-day{
     background-color: #323544;
 }
-.degree-content .digit{
+.group-temp .digit{
     font-size: 4.8rem;
     margin-right: 30px;
 }
@@ -136,6 +136,7 @@ sup{
    
     position: relative;
 }
+
 
 .custom{
     color: #009ad8;

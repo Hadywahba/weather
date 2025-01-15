@@ -47,9 +47,9 @@ function displayWeather(data){
           
           ` : ``}
             ${i==0 ? `
-         <div class="degree-content">
+         <div class="group-temp    ">
        
-           <div class="digit d-flex ">
+           <div class="digit m-0">
 ${data.current.temp_c}
           
              &deg;C

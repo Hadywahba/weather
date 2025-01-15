@@ -4,11 +4,11 @@
     }
 }
 @media (min-width:576px) {
-        .degree-content{
+        .group-temp{
 display: flex;
 flex-direction: column;
-
-align-items: flex-start;
+justify-content: center;
+align-items: center;
         }
     
 }
@@ -18,12 +18,12 @@ align-items: flex-start;
   
         width: 33.3%;
       }
-        .degree-content{
+        .group-temp{
             display: flex;
             flex-direction: row;
-           justify-content: space-between;
+         justify-content: flex-start;
            align-items: center;
         
                     }
     }
-}
+
