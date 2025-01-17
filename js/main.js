@@ -63,7 +63,7 @@ ${data.current.temp_c}
           
           
           `: `
-           <div class="degree-content d-flex flex-column justify-content-center align-items-center">
+           <div class="degree-content  d-flex flex-column justify-content-center align-items-center">
            <div class="  ">
             <div class="degree-ico text-center mb-4">
             <img src="${array[i].day.condition.icon}" alt="">
